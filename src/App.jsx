@@ -19,19 +19,16 @@ function App() {
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="/articles" element={<ArticlesPage />}>
           <Route index element={<ArticlesInfo />} />
-          <Route path="/articles/overview" element={<Articles />} />
-          <Route
-            path="/articles/article-details"
-            element={<ArticleDetails />}
-          />
+          <Route path="overview" element={<Articles />} />
+          <Route path=":slug" element={<ArticleDetails />} />
         </Route>
         <Route path="*" element="Not found..."></Route>
       </Route>
 
       <Route path="/admin" element={<AdminLayout />}>
         <Route index element={<AdminHomePage />} />
-        <Route path="/admin/settings" element={<SettingsPage />} />
-        <Route path="/admin/dashboard" element={<DashboardPage />} />
+        <Route path="settings" element={<SettingsPage />} />
+        <Route path="dashboard" element={<DashboardPage />} />
       </Route>
     </Routes>
   );
