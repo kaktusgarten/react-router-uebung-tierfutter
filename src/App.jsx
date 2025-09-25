@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ArticlesPage from "./pages/ArticlesPage";
 import ArticlesInfo from "./components/articlesPage/AriclesInfo";
-import Articles from "./components/articlesPage/articles";
+import Articles from "./components/articlesPage/Articles";
 import AdminLayout from "./layout/AdminLayout";
 import AdminHomePage from "./pages/admin/AdminHomePage";
 import SettingsPage from "./pages/admin/SettingsPage";
