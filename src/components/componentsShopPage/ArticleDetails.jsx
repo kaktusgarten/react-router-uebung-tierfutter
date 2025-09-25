@@ -1,17 +1,34 @@
 // Daten:
-import { articlesData } from "../../data/articlesData";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-
 import { useParams } from "react-router";
+
 export default function ArticleDetails() {
+  const [articles, setArticles] = useState([]);
+
+  useEffect(() => {
+    const getData = async () => {
+      const res = await fetch("/articlesData.json");
+      const data = await res.json();
+      setArticles(data);
+    };
+    getData();
+  }, []);
+
   const { slug } = useParams();
-  const article = articlesData.find((article) => article.slug === slug);
-  
+  const article = articles.find((article) => article.slug === slug);
+
+  // KAUFEN BUTTON:
   const navigate = useNavigate();
   const kaufen = () => {
     alert("Herzlichen Glückwunsch");
     navigate(-1);
   };
+
+  if (!article) {
+    return <p>Lade Artikel...</p>;
+  }
+
   return (
     <article className="border flex p-5 gap-4">
       <div>

@@ -2,7 +2,7 @@ import { NavLink } from "react-router";
 export default function Nav() {
   return (
     <>
-      <nav className="border p-5 flex gap-7 bg-gray-500 text-white">
+      <nav className="p-5 flex gap-7 bg-gray-500 text-white">
         <ul className="flex gap-5">
           <li>
             <NavLink to="/" className="p-1">
