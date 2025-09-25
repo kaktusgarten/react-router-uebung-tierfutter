@@ -11,7 +11,7 @@ import {
   SettingsPage,
   DashboardPage,
   ArticleDetails,
-} from ".";
+} from "./index.jsx";
 
 function App() {
   return (
