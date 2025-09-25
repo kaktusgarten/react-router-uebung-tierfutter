@@ -7,12 +7,12 @@ export default function MainLayout() {
   return (
     <>
       <div className="">
-        <div className="bg-white  m-auto container flex flex-col justify-between min-h-[100vh]">
+        <div className="  m-auto container flex flex-col justify-between min-h-[100vh]">
           <Nav></Nav>
 
           <Header></Header>
 
-          <main className=" p-5 flex-1">
+          <main className=" p-5 flex-1 bg-white">
             <Outlet></Outlet>
           </main>
 
