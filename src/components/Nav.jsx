@@ -2,7 +2,7 @@ import { NavLink } from "react-router";
 export default function Nav() {
   return (
     <>
-      <nav className="sticky top-0  p-5 flex gap-7 bg-gray-500 text-white border-b border-b-amber-500">
+      <nav className="sticky top-0  p-5 flex gap-7 bg-white text-black border-b border-b-black">
         <div className="container m-auto">
           <ul className="flex gap-5">
             <li>
