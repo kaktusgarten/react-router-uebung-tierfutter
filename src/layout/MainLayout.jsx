@@ -6,18 +6,16 @@ import Nav from "../components/Nav";
 export default function MainLayout() {
   return (
     <>
-      <div className="">
-        <div className="  m-auto container flex flex-col justify-between min-h-[100vh]">
-          <Nav></Nav>
+      <Nav></Nav>
 
-          <Header></Header>
+      <div className="flex flex-col justify-between min-h-[100vh]">
+        <Header></Header>
 
-          <main className=" p-5 flex-1 bg-white">
-            <Outlet></Outlet>
-          </main>
+        <main className="m-auto container p-5 flex-1 bg-white">
+          <Outlet></Outlet>
+        </main>
 
-          <Footer></Footer>
-        </div>
+        <Footer></Footer>
       </div>
     </>
   );
