@@ -16,8 +16,8 @@ export const articlesData = [
   {
     id: 3,
     slug: "fisch-futter",
-    name: "Aalibert Fischfutter",
-    desc: "Aal Futter. Für euren Aal.",
+    name: "Aal-Total Fischfutter",
+    desc: "Futter für euren Aal. Super lecker!",
     img: "aalfutter.png",
   },
   {
