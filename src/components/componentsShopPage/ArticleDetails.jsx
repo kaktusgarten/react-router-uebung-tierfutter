@@ -30,7 +30,7 @@ export default function ArticleDetails() {
   }
 
   return (
-    <article className="border flex p-5 gap-4">
+    <article className="border flex p-5 gap-4 bg-gray-200 rounded-md border-[#979494]">
       <div>
         <img className="max-w-[100%] w-[300px]" src={`/${article.img}`}></img>
       </div>

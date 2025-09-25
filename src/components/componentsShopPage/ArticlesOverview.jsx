@@ -21,12 +21,12 @@ export default function Articles() {
       <ul className="grid grid-cols-1 xl:grid-cols-5 lg:grid-cols-3 md:grid-cols-2 gap-3">
         {articles.map((article) => (
           <Link to={`/articles/${article.slug}`} key={article.id}>
-            <article className="border p-5 overflow-auto h-1/1">
+            <article className="bg-gray-200  border p-5 overflow-auto h-1/1 rounded-md border-[#979494]">
               <div>
                 <img
                   src={`/${article.img}`}
                   alt="Produktbild"
-                  className="h-[150px] w-[100%] object-cover"
+                  className="h-[150px] w-[100%] object-cover border border-[#979494]"
                 ></img>
                 <h2 className="text-2xl font-black min-h-[80px]">
                   {article.name}
