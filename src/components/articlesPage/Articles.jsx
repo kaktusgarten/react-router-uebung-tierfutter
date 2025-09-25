@@ -10,7 +10,7 @@ export default function Articles() {
             <article className="border p-5 overflow-auto h-1/1">
               <div>
                 <img
-                  src={`/public/${article.img}`}
+                  src={`/${article.img}`}
                   alt="Produktbild"
                   className="h-[150px] w-[100%] object-cover"
                 ></img>

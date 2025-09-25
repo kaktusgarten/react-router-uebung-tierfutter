@@ -14,10 +14,7 @@ export default function ArticleDetails() {
   return (
     <article className="border flex p-5 gap-4">
       <div>
-        <img
-          className="max-w-[100%] w-[300px]"
-          src={`/public/${article.img}`}
-        ></img>
+        <img className="max-w-[100%] w-[300px]" src={`/${article.img}`}></img>
       </div>
       <div>
         <h2 className="text-4xl mb-5">{article.name}</h2>
