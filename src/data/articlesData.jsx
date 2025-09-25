@@ -1,0 +1,37 @@
+export const articlesData = [
+  {
+    id: 1,
+    slug: "hunde-futter",
+    name: "Bellos Bestes",
+    desc: "Tolles Hundefutter für alle Hunde. Echt lecker!",
+    img: "hundefutter.webp",
+  },
+  {
+    id: 2,
+    slug: "katzen-futter",
+    name: "Kitikat",
+    desc: "Tolles Katzenfutter! Schmeckt nach mehr als nur Maus ..",
+    img: "katzenfutter.webp",
+  },
+  {
+    id: 3,
+    slug: "fisch-futter",
+    name: "Aalibert Fischfutter",
+    desc: "Aal Futter. Für euren Aal.",
+    img: "aalfutter.png",
+  },
+  {
+    id: 4,
+    slug: "vogel-futter",
+    name: "Spatzis Liebstes",
+    desc: "Für Vögel das Beste was es gibt!",
+    img: "vogelfutter.webp",
+  },
+  {
+    id: 5,
+    slug: "maus-futter",
+    name: "Jeries Leckerlies",
+    desc: "Damit eure Mäuse groß und stark werden!",
+    img: "mausfutter.webp",
+  },
+];
