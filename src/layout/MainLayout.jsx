@@ -6,7 +6,7 @@ import Nav from "../components/Nav";
 export default function MainLayout() {
   return (
     <>
-      <div className="bg-black">
+      <div className="">
         <div className="bg-white  m-auto container flex flex-col justify-between min-h-[100vh]">
           <Nav></Nav>
 

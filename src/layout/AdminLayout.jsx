@@ -5,7 +5,7 @@ export default function AdminLayout() {
   const navigate = useNavigate();
   return (
     <>
-      <div className="bg-black">
+      <div>
         <div className="container border m-auto p-5 bg-white">
           <header>
             <div className="pb-5">
