@@ -24,6 +24,8 @@ function App() {
           <Route path="overview" element={<Articles />} />
           <Route path=":slug" element={<ArticleDetails />} />
         </Route>
+        {/* GEHT AUS SO MIT DEM LINK SLUG, AUSSERHALB: */}
+        <Route path="/articles/:slug" element={<ArticleDetails />} />
         <Route path="*" element="Not found..."></Route>
       </Route>
 

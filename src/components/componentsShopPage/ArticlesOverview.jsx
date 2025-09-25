@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { useEffect, useState } from "react";
-import { useOutletContext } from "react-router";
+// import { useOutletContext } from "react-router";
 
 export default function Articles() {
   const [articles, setArticles] = useState([]);
